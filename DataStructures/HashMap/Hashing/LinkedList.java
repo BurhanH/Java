@@ -1,3 +1,5 @@
+package DataStructures.HashMap.Hashing;
+
 class LinkedList {
 
 	private Node Head;
@@ -10,7 +12,6 @@ class LinkedList {
 
 	public void insert(int data) {
 
-		Node temp = Head;
 		Node newnode = new Node(data);
 	
 		size++;
